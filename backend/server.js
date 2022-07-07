@@ -5,6 +5,13 @@ const connectDB = require('./config/db');
 const dotenv = require('dotenv').config();
 const {errorHandler} = require('./middleware/errorMiddleware');
 const port = process.env.PORT || 9000;
+const cors = require('cors');
+const corsOptions = {
+    origin: '*',
+    credentials: true,
+    optionSuccessStatus: 200,
+}
+app.use(cors(corsOptions))
 
 
 connectDB();

@@ -1,0 +1,12 @@
+.FAQ{
+    text-align: center;
+    margin-top: 30px;
+}
+.FAQ h1{
+    font-size: 50px;
+    color: #BCDC4B;
+}
+.FAQ p{
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.About{
+    margin: 60px;
+}
+.About h1{
+    font-size: 30px;
+    color: #BCDC4B;
+}
+.About p{
+    font-size: 20px;
+    color: white;
+}
